@@ -1,0 +1,15 @@
+Body {background-image: linear-gradient(to bottom, #9E81BA, #8B6DAB, #76589C, #664A8C, #573B7D, #503674, #49316A);}
+h1 {
+color:#F9EDFF; font-size:80px; text-align: center; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+}
+
+img {
+  width: 150px;
+  filter: drop-shadow(2px 2px 2px #1B0F2B);
+}
+
+h2 {
+color:#F9EDFF; font-size:40px; text-align: left; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+}
