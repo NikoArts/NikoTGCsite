@@ -3,7 +3,7 @@ Body {
 	}
 	
 h1 {
-color:#F9EDFF; font-size:80px; text-align: center; word-spacing:10px; 
+color:#F9EDFF; font-size:6vw; text-align: center; word-spacing:10px; 
 text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
 }
 
@@ -12,16 +12,47 @@ img {
 }
 
 a {
-color:#F9EDFF; font-size:60px; text-align: left; word-spacing:10px; 
+color:#F9EDFF; font-size:4vw; text-align: left; word-spacing:10px; 
 text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
 }
 
 h2 {
-color:#F9EDFF; font-size:30px; text-align: top-left; word-spacing:10px; 
+color:#F9EDFF; font-size:2vw; text-align: top-left; word-spacing:10px; 
 text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
 }
 
 h3 {
-color:#F9EDFF; font-size:20px; text-align: left; word-spacing:10px; 
+color:#F9EDFF; font-size:1.5vw; text-align: left; word-spacing:10px; 
 text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
 }
+
+a.Selected {
+color:#ff8A46; font-size:1.5vw; text-align: left; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #EB6F3E, 2px 2px 0.5px #AF3E33, 3px 3px 2px #1B0F2B;
+}
+
+a.Selected2 {
+color:#AFAAC1; font-size:1.5vw; text-align: left; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #8279A3, 2px 2px 0.5px #656192, 3px 3px 2px #1B0F2B;
+}
+
+#wrapper ul {
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    list-style-type: none;
+}
+
+#wrapper ul li {
+    background-color: rgba(27, 15, 43, 0.4);
+    padding: 30px;
+    margin-bottom: 20px;
+    display: table;
+    width: 100%;
+}
+
+#wrapper ul li img {
+    float: left;
+}
+
+#wrapper ul li .details {float: right;width: 75%;}
