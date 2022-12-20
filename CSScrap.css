@@ -57,6 +57,11 @@ text-shadow: 1px 1px 0.5px #8279A3, 2px 2px 0.5px #656192, 3px 3px 2px #1B0F2B;
 
 #wrapper ul li .details {float: right;width: 75%;}
 
-h4 {
-color:rgba(27, 15, 43, 0.7);; font-size:2vw; text-align: center; word-spacing:10px;
+p.Links {
+color:rgba(27, 15, 43, 0.7); font-size:2vw; text-align: center; word-spacing:10px;
+}
+
+img.Links {
+	position: relative;
+	top: 0.3vw;
 }
