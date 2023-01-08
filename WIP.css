@@ -22,5 +22,7 @@ h2 {
 	color:#F9EDFF; font-size:2vw; text-align: center; word-spacing:10px; 
 	margin-left: auto;
 	margin-right: auto;
-	width: 80vw
+	width: 80vw;
+	font-family: Sylfaen;
+	image-rendering: pixelated;
 }
