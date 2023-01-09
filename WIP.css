@@ -7,7 +7,8 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	image-rendering: pixelated;
-	width: 20vw
+	width: 20vw;
+	margin-top: 10vw;
 }
 
 audio{
@@ -26,3 +27,4 @@ h2 {
 	font-family: Sylfaen;
 	image-rendering: pixelated;
 }
+
