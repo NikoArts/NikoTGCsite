@@ -2,6 +2,31 @@ Body {
 	background: linear-gradient(to bottom right, #9E81BA, #8B6DAB, #76589C, #664A8C, #573B7D, #503674, #49316A);
 	}
 	
+Body.Universes {
+	background: linear-gradient(to bottom right, #888DB4, #757AA3, #606591, #515782, #424873, #3B426B, #353C63);
+	}
+		
+Body.FanUniverses {
+	background: linear-gradient(to bottom right, #49316A, #B06185, #9C4C74, #8C3E64, #7D2F55, #77294E, #702446);
+	}
+		
+Body.Comics {
+	background: linear-gradient(to bottom right, #9E7DD0, #8B69BF, #7654AD, #67469E, #58378F, #523288, #4B2C7F);
+	}
+		
+Body.Asks {
+	background: linear-gradient(to bottom right, #E8A6BB, #D592AC, #C07D9D, #B06F8D, #A1607E, #9A5B75, #93566B);
+	}
+		
+Body.Changes {
+	background: linear-gradient(to bottom right, #8E83D7, #7B70C6, #675BB4, #574DA5, #483E96, #42388E, #3B3386);
+	}
+		
+Body.Author {
+	background: linear-gradient(to bottom right, #E8C2AA, #D5AE9B, #C0998C, #B08B7C, #A17C6D, #9A7764, #93725A);
+	}
+	
+	
 h1 {
 color:#F9EDFF; font-size:6vw; text-align: center; word-spacing:10px; 
 text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
