@@ -96,3 +96,11 @@ img.Links {
 	position: relative;
 	top: 0.3vw;
 }
+
+#wrapper ul li .Info {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 1px;
+    margin-bottom: 20px;
+    display: table;
+    width: 50%;
+}
