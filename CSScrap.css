@@ -89,7 +89,12 @@ font-family: Georgia;
 #wrapper ul li .details {float: right;width: 75%;}
 
 p.Links {
-color:rgba(27, 15, 43, 0.7); font-size:2vw; text-align: center; word-spacing:10px;
+color:rgba(27, 15, 43, 0.7); 
+font-size:2vw; 
+text-align: center; 
+word-spacing:10px;
+position: relative;
+bottom:0.2vw;
 }
 
 img.Links {
