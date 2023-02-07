@@ -109,3 +109,44 @@ img.Links {
     display: table;
     width: 50%;
 }
+
+img.Gallery {
+	padding: 1vw;
+}
+
+img.Comics{
+	width: 80vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vw;
+}
+
+img.ComicsPrev{
+	height: 40vw;
+	display: block;
+	margin-left: -1vw;
+	margin-right: 1vw;
+}
+
+.ComicsbuttonA {
+position:fixed;
+top:40%;
+left:50px;
+cursor:pointer;
+border-radius: 5px;
+}
+
+.ComicsbuttonB {
+position:fixed;
+top:40%;
+right:50px;
+cursor:pointer;
+border-radius: 5px;
+}
+
+h3.ComicsINFO{
+color:#F9EDFF; font-size:1.5vw; text-align: center; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+font-family: Georgia;
+}
