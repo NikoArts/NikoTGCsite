@@ -8,4 +8,7 @@ function redirectUser() {
   else if(code == "back"){
     window.location.href = "index.html";
   }
+  else if(code == "TheCaveGame"){
+    window.location.href = "Easters/Minecraft.html";
+  }
 }
