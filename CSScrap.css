@@ -169,3 +169,92 @@ font-family: Georgia;
     margin-bottom: 20px;
     display: table;
 }
+
+
+ul {
+    list-style: none;
+}
+
+.menu > li {
+    float: left;
+}
+.menu button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+	
+	color:#F9EDFF; font-size:2vw; text-align: top-left; 
+	text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+	font-family: Georgia;
+	position: fixed;
+	top: 0.2vw;
+	left:35vw;
+	z-index: 10;
+}
+
+.menu button:hover,
+.menu button:focus {
+    outline: 0;
+    text-decoration: underline;
+}
+
+.submenu {
+    display: none;
+    position: fixed;
+    padding: 10px;
+	z-index: 10;
+	
+}
+.menu button:focus + .submenu,
+.submenu:hover {
+    display: block;
+}
+
+#rectangle.header{
+	width: 101%;
+    height: 20vw;
+	background: linear-gradient(to bottom right, rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.1)) ;
+	position: fixed;
+	top: -17vw;
+	left: -1vw;
+	z-index: 9;
+}
+
+h1.MainLogo{
+	color:#F9EDFF; font-size:2vw; text-align: top-left; 
+	text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+	font-family: Georgia;
+	position: fixed;
+	top: -1.2vw;
+	left:0.5vw;
+	z-index: 10;
+}
+
+img.MenuButton{
+	width: 6%;
+	content: url("Images/MenuPick1.png");
+	
+	position: fixed;
+	top: 0.5vw;
+	left:33vw;
+	z-index: 10;	
+}
+
+img.MenuButton:active{
+	width: 6.7%;
+	content: url("Images/MenuPick2.png");
+	
+	position: fixed;
+	top: 0.15vw;
+	left:32.65vw;
+	z-index: 10;
+}
+
+img.Post{
+	
+}
+
+iframe{
+	filter: drop-shadow(2px 2px 2px #1B0F2B);
+	padding: 3%;
+}
