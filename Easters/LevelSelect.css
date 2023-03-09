@@ -1,0 +1,61 @@
+Body {
+	background-image: url("LevelSelect/Background.gif");
+	animation: myAnim 20s linear 0s infinite normal forwards;
+	}
+
+@keyframes myAnim {
+	0% {
+		background-position: 0% 0%;
+	}
+
+	100% {
+		background-position: 192px 64px;
+	}
+}
+
+img.FG{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top:0px;
+	z-index: -100;
+}
+
+@font-face { font-family: Sonic2; src: url('LevelSelect/sonic-2-system.ttf'); }
+
+a.Text{
+	font-family: Sonic2;
+	font-size: 2vw;
+	color:#ffffff;
+	text-shadow: 0.3vw 0vw 0vw #000000;
+	image-rendering: pixelated;
+	text-decoration: none;
+	z-index: 1;
+}
+
+a.Text:hover{
+	color:yellow;
+}
+
+
+img.LS{
+	position: fixed;
+	right: 100px;
+	bottom:80px;
+	z-index: 5;
+}
+
+img.LS2{
+	position: fixed;
+	right: 145px;
+	bottom:108px;
+	z-index: 2;
+}
+
+img.LS1{
+	position: fixed;
+	right: 145px;
+	bottom:108px;
+	z-index: 3;
+}
