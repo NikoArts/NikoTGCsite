@@ -1,0 +1,42 @@
+.Particles1{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top:0px;
+	z-index: 100;
+}
+
+.Particles2{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top:0px;
+	z-index: -100;
+}
+
+@keyframes myAnim {
+	0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-720px); 
+  }
+}
+
+.CP1{
+	animation: myAnim 20s linear 0s infinite normal forwards;
+	}
+	
+.CP2{
+	animation: myAnim 15s linear 0s infinite normal forwards;
+	}
+
+.CP3{
+	animation: myAnim 10s linear 0s infinite normal forwards;
+	}
+	
+.CP4{
+	animation: myAnim 5s linear 0s infinite normal forwards;
+	}
