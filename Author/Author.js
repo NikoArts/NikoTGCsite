@@ -268,6 +268,61 @@ document.getElementById('AuthorIMG2').classList.remove('Bouncy');
 },500);
 }
 
+function N15a()
+
+{
+setTimeout(function(){
+AuthorIMG.src='Images/Author/Niko15a.png';
+AuthorIMG2.src='Images/Author/Chibi/SmolNiko15a.png';
+
+document.getElementById("NikoInfo").innerHTML = ' <p align="left"> <a><h3> Копия_G </h3></a> <h3> <li class="AuthorInfo2"> Имя: Копия_G (eng: Copy_G) <br> Возраст: ?? лет <br> Пол: Мужской??? <br> Тип: Персонаж <br> Раса: ???? <br><br><a class="Selected">Информация об персонаже: </a><br> <a class="Selected">*</a>Существо которое принимает облик Нико.<br> <a class="Selected">*</a>Воплощение: ????.<br> <a class="Selected">*</a>Существо принимает вид Нико для охоты на разных EXE существ.<br> </li></h3></p></a> ';
+},1);
+
+document.getElementById('AuthorIMG').classList.add('Bouncy');
+document.getElementById('AuthorIMG2').classList.add('Bouncy');
+setTimeout(function(){
+document.getElementById('AuthorIMG').classList.remove('Bouncy');
+document.getElementById('AuthorIMG2').classList.remove('Bouncy');
+},500);
+}
+
+function N15b()
+
+{
+setTimeout(function(){
+AuthorIMG.src='Images/Author/Niko15b.png';
+AuthorIMG2.src='Images/Author/Chibi/SmolNiko15b.png';
+
+document.getElementById("NikoInfo").innerHTML = ' <h1 style="color: red;"> Б Е Г И </h1> ';
+},1);
+
+document.getElementById('AuthorIMG').classList.add('Bouncy');
+document.getElementById('AuthorIMG2').classList.add('Bouncy');
+setTimeout(function(){
+document.getElementById('AuthorIMG').classList.remove('Bouncy');
+document.getElementById('AuthorIMG2').classList.remove('Bouncy');
+},500);
+}
+
+function N16()
+
+{
+setTimeout(function(){
+AuthorIMG.src='Images/Author/Niko16.png';
+AuthorIMG2.src='Images/Author/Chibi/SmolNiko16.png';
+
+document.getElementById("NikoInfo").innerHTML = ' <p align="left"> <a><h3> Лакки </h3></a> <h3> <li class="AuthorInfo2"> Имя: Лакки (eng: Lukki) <br> Возраст: 19 лет <br> Пол: Женский <br> Тип: Персонаж <br> Раса: Глючный Слайм/Суккуб <br><br><a class="Selected">Информация об персонаже: </a><br> <a class="Selected">*</a>Хитрая засранка.<br> <a class="Selected">*</a>Воплощение: Похоти, Озорства, Надоедливости и Глупости.<br> <a class="Selected">*</a>Всегда готова кинуть пошлую шутку или начать флиртовать с объектом её обожания (Дарк).<br> <a class="Selected">*</a>Хоть и является воплощением похоти но она очень... ОЧЕНЬ легко смущается (в общем её легко контр-атаковать даже самым лёгким комплиментом).<br> <a class="Selected">*</a>Носит ОЧЕНЬ открытую одежду потому что температура её тела выше чем у остальных версий Нико (в общем ей всегда жарко).<br> <a class="Selected">*</a>Самая маленькая из всех версий Нико.<br> </li></h3></p></a> ';
+},1);
+
+document.getElementById('AuthorIMG').classList.add('Bouncy');
+document.getElementById('AuthorIMG2').classList.add('Bouncy');
+setTimeout(function(){
+document.getElementById('AuthorIMG').classList.remove('Bouncy');
+document.getElementById('AuthorIMG2').classList.remove('Bouncy');
+},500);
+}
+
+
 //Ripple Event Handler
 var drawRipple = function(ev) {
   var x = ev.clientX;
