@@ -1,31 +1,42 @@
 Body {
-	background: linear-gradient(to bottom right, #9E81BA, #8B6DAB, #76589C, #664A8C, #573B7D, #503674, #49316A);
+	background: linear-gradient(to bottom right, #9E81BA, #896AAE, #7254A0, #5A3C90, #422E81, #312473, #241D56);
 	}
 	
 Body.Universes {
-	background: linear-gradient(to bottom right, #888DB4, #757AA3, #606591, #515782, #424873, #3B426B, #353C63);
+	background: linear-gradient(to bottom right, #7EA5BA, #6388AA, #486B99, #314F88, #273C7F, #242E75, #202564);
 	}
 		
 Body.FanUniverses {
-	background: linear-gradient(to bottom right, #49316A, #B06185, #9C4C74, #8C3E64, #7D2F55, #77294E, #702446);
+	background: linear-gradient(to bottom right, #BA3944, #A51B36, #8D0B2F, #730B2A, #5D0B2B, #4A0B2A, #370B26);
 	}
 		
 Body.Comics {
-	background: linear-gradient(to bottom right, #9E7DD0, #8B69BF, #7654AD, #67469E, #58378F, #523288, #4B2C7F);
+	background: linear-gradient(to bottom right, #9973E1, #8661D7, #6949C7, #5439B8, #3F2AA3, #362395, #2E208B);
 	}
 		
 Body.Asks {
-	background: linear-gradient(to bottom right, #E8A6BB, #D592AC, #C07D9D, #B06F8D, #A1607E, #9A5B75, #93566B);
+	background: linear-gradient(to bottom right, #FFBF82, #FAA572, #EC9164, #E07250, #D45D45, #C84939, #BC3630);
 	}
 		
 Body.Changes {
-	background: linear-gradient(to bottom right, #8E83D7, #7B70C6, #675BB4, #574DA5, #483E96, #42388E, #3B3386);
+	background: linear-gradient(to bottom right, #363DAB, #2F309B, #28258A, #271B81, #1F0C75, #180C66, #180C55);
 	}
 		
 Body.Author {
-	background: linear-gradient(to bottom right, #E8C2AA, #D5AE9B, #C0998C, #B08B7C, #A17C6D, #9A7764, #93725A);
+	background: linear-gradient(to bottom right, #FFF064, #F6D558, #EFBF4C, #E8A941, #DD8C3A, #D67330, #CD5421);
 	}
 	
+body.Credits{
+	background: linear-gradient(to bottom, #9E81BA, #896AAE, #7254A0, #5A3C90, #422E81, #312473, #241D56,
+										   #0B0843, #07042B, #000022, #04002E, #0A0037, #20004C, #360058,
+										   #5A0567, #790777, #8B0778, #A60B6E, #C0136E, #D21B58, #DE314C,
+										   #ED5244, #FF8B67, #FFC285, #FFE1A6, #FFF0BA, #FFD3BA, #FFA19D,
+										   #FF88AA, #FF79C5, #F65AD8, #EA4CFF, #B446FF, #7D2BFF, #412EED,
+										   #3850F3, #4278F6, #5593FF, #76BBFF, #ABE5FF, #9BA2E4, #9E81BA
+										   );
+	overflow: hidden;
+}
+
 	
 h1 {
 color:#F9EDFF; font-size:6vw; text-align: center; word-spacing:10px; 
@@ -51,6 +62,18 @@ font-family: Georgia;
 
 h3 {
 color:#F9EDFF; font-size:1.5vw; text-align: left; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+font-family: Georgia;
+}
+
+h4 {
+color:#F9EDFF; font-size:4vw; text-align: center; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+font-family: Georgia;
+}
+
+h5 {
+color:#F9EDFF; font-size:2vw; text-align: center; word-spacing:10px; 
 text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
 font-family: Georgia;
 }
@@ -241,13 +264,33 @@ img.MenuButton{
 }
 
 img.MenuButton:active{
-	width: 6.7%;
+	width: 6%;
 	content: url("Images/MenuPick2.png");
 	
 	position: fixed;
-	top: 0.15vw;
-	left:32.65vw;
-	z-index: 10;
+	top: 0.5vw;
+	left:33vw;
+	z-index: 10;	
+}
+
+img.CreditsButton{
+	width: 6%;
+	content: url("Images/CreditsPick1.png");
+	
+	position: fixed;
+	top: 0.5vw;
+	left:43vw;
+	z-index: 10;	
+}
+
+img.CreditsButton:active{
+	width: 6%;
+	content: url("Images/CreditsPick2.png");
+	
+	position: fixed;
+	top: 0.5vw;
+	left:43vw;
+	z-index: 10;	
 }
 
 img.Post{
@@ -257,4 +300,9 @@ img.Post{
 iframe{
 	filter: drop-shadow(2px 2px 2px #1B0F2B);
 	padding: 3%;
+}
+
+img.Credits {
+	position: relative;
+	top: 1.5vw;
 }
