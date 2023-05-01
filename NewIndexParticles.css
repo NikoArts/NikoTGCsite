@@ -1,0 +1,71 @@
+@keyframes Beat {
+	20% {
+		transform: scale(1.1);
+	}
+
+	120% {
+		transform: scale(1);
+	}
+}
+
+.Beat{
+	animation: Beat 0.5455s ease 0s infinite normal backwards;
+}
+
+
+@keyframes Beat2 {
+	0% {
+		transform: scale(1.01);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.Beat2{
+	animation: Beat2 1.8333s ease 0s infinite normal backwards;
+}
+
+@keyframes Beat3 {
+	0% {
+		transform: scale(1.02);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.Beat3{
+	animation: Beat3 0.5455s ease 0s infinite normal backwards;
+}
+
+@keyframes Beat4 {
+	0% {
+		transform: scale(1.03);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.Beat4{
+	animation: Beat4 0.5455s ease 0s infinite normal backwards;
+}
+
+
+@keyframes Beat5 {
+	0% {
+		transform: scale(1.07);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.Beat5{
+	animation: Beat5 1.8333s ease 0s infinite normal backwards;
+}

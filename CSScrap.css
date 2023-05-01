@@ -32,7 +32,8 @@ body.Credits{
 										   #5A0567, #790777, #8B0778, #A60B6E, #C0136E, #D21B58, #DE314C,
 										   #ED5244, #FF8B67, #FFC285, #FFE1A6, #FFF0BA, #FFD3BA, #FFA19D,
 										   #FF88AA, #FF79C5, #F65AD8, #EA4CFF, #B446FF, #7D2BFF, #412EED,
-										   #3850F3, #4278F6, #5593FF, #76BBFF, #ABE5FF, #9BA2E4, #9E81BA
+										   #3850F3, #4278F6, #5593FF, #76BBFF, #ABE5FF, #9BA2E4, #9E81BA,
+										   #9E81BA, #896AAE, #7254A0, #5A3C90, #422E81, #312473, #241D56,
 										   );
 	overflow: hidden;
 }
@@ -305,4 +306,42 @@ iframe{
 img.Credits {
 	position: relative;
 	top: 1.5vw;
+}
+
+
+img.MenuButton1{
+	content: url("Images/Index/Button_1a.png");
+}
+
+img.MenuButton1:active{
+	content: url("Images/Index/Button_1b.png");
+}
+
+
+img.MenuButton2{
+	content: url("Images/Index/Button_2a.png");
+}
+
+img.MenuButton2:active{
+	content: url("Images/Index/Button_2b.png");
+}
+
+img.MenuButton3{
+	content: url("Images/Index/Button_3a.png");
+}
+
+img.MenuButton3:active{
+	content: url("Images/Index/Button_3b.png");
+}
+
+img.MenuButton4{
+	content: url("Images/Index/Button_4a.png");
+}
+
+img.MenuButton4:active{
+	content: url("Images/Index/Button_4b.png");
+}
+
+img.BG {
+  filter: drop-shadow(0px 0px 0px #00000000);
 }
