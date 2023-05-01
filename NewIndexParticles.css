@@ -24,7 +24,7 @@
 }
 
 .Beat2{
-	animation: Beat2 1.8333s ease 0s infinite normal backwards;
+	animation: Beat2 1.091s ease 0s infinite normal backwards;
 }
 
 @keyframes Beat3 {
@@ -67,5 +67,5 @@
 }
 
 .Beat5{
-	animation: Beat5 1.8333s ease 0s infinite normal backwards;
+	animation: Beat5 1.091s ease 0s infinite normal backwards;
 }
