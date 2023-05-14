@@ -9,7 +9,7 @@
 }
 
 .Beat{
-	animation: Beat 0.5455s ease 0s infinite normal backwards;
+	animation: Beat 0.6s ease 0s infinite normal backwards;
 }
 
 
@@ -24,7 +24,7 @@
 }
 
 .Beat2{
-	animation: Beat2 1.091s ease 0s infinite normal backwards;
+	animation: Beat2 1.2s ease 0s infinite normal backwards;
 }
 
 @keyframes Beat3 {
@@ -38,7 +38,7 @@
 }
 
 .Beat3{
-	animation: Beat3 0.5455s ease 0s infinite normal backwards;
+	animation: Beat3 0.6s ease 0s infinite normal backwards;
 }
 
 @keyframes Beat4 {
@@ -52,12 +52,16 @@
 }
 
 .Beat4{
-	animation: Beat4 0.5455s ease 0s infinite normal backwards;
+	animation: Beat4 0.6s ease 0s infinite normal backwards;
 }
 
 
 @keyframes Beat5 {
 	0% {
+		transform: scale(1.03);
+	}
+	
+	5% {
 		transform: scale(1.07);
 	}
 
@@ -67,5 +71,74 @@
 }
 
 .Beat5{
-	animation: Beat5 1.091s ease 0s infinite normal backwards;
+	animation: Beat5 1.2s ease 0s infinite normal backwards;
+}
+
+
+@keyframes Beat6 {
+	0% {
+		transform: scale(1.03) rotate(3deg);
+	}
+
+	49% {
+		transform: scale(1) rotate(0deg);
+	}
+	
+	50% {
+		transform: scale(1.03) rotate(-3deg);
+	}
+
+	100% {
+		transform: scale(1) rotate(0deg);
+	}
+}
+
+.Beat6{
+	animation: Beat6 1.2s ease 0s infinite normal backwards;
+}
+
+
+@keyframes Beat7 {
+	0% {
+		transform: scale(1.01) rotate(0.8deg);
+	}
+
+	49% {
+		transform: scale(1) rotate(0deg);
+	}
+	
+	50% {
+		transform: scale(1.01) rotate(-0.8deg);
+	}
+
+	100% {
+		transform: scale(1) rotate(0deg);
+	}
+}
+
+.Beat7{
+	animation: Beat7 1.2s ease 0s infinite normal backwards;
+}
+
+
+@keyframes Beat8 {
+	0% {
+		transform: scale(1.03) rotate(-3deg);
+	}
+
+	49% {
+		transform: scale(1) rotate(0deg);
+	}
+	
+	50% {
+		transform: scale(1.03) rotate(3deg);
+	}
+
+	100% {
+		transform: scale(1) rotate(0deg);
+	}
+}
+
+.Beat8{
+	animation: Beat8 1.2s ease 0s infinite normal backwards;
 }

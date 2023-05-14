@@ -38,6 +38,10 @@ body.Credits{
 	overflow: hidden;
 }
 
+.Index{
+	overflow: hidden;
+}
+
 	
 h1 {
 color:#F9EDFF; font-size:6vw; text-align: center; word-spacing:10px; 
@@ -237,7 +241,7 @@ ul {
 #rectangle.header{
 	width: 101%;
     height: 20vw;
-	background: linear-gradient(to bottom right, rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.5), rgba(27, 15, 43, 0.1)) ;
+	background: linear-gradient(to bottom right, #000013, #000013, #000013, #000013, #000013, #000013, rgba(27, 15, 43, 0.1)) ;
 	position: fixed;
 	top: -17vw;
 	left: -1vw;
@@ -344,4 +348,9 @@ img.MenuButton4:active{
 
 img.BG {
   filter: drop-shadow(0px 0px 0px #00000000);
+}
+
+.MediaButtons:active{
+	color:#FFBE6D;
+	text-shadow: 1px 1px 0.5px #E78142, 2px 2px 0.5px #D23118, 3px 3px 2px #1B0F2B;
 }
