@@ -38,6 +38,10 @@ body.Credits{
 	overflow: hidden;
 }
 
+Body.Tutorial {
+	background: black;
+	}
+
 .Index{
 	overflow: hidden;
 }
@@ -320,7 +324,6 @@ img.MenuButton1{
 img.MenuButton1:active{
 	content: url("Images/Index/Button_1b.png");
 }
-
 
 img.MenuButton2{
 	content: url("Images/Index/Button_2a.png");
