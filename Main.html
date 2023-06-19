@@ -18,11 +18,13 @@
 </head>
 <body class="Index">
 
-<video id="myaudio" controls="" loop="loop" autoplay="autoplay" name="media" preload="auto" hidden>
+<video id="MenuMusicTheme1" controls="" loop="loop" autoplay="autoplay" name="media" preload="auto" hidden>
 <source src="OST/MenuTheme.mp3" type="audio/mp3">
 </video>
 	<script>
-		var audio = document.getElementById("myaudio");
+		document.getElementById('MenuMusicTheme1').addEventListener('loadedmetadata', function(){
+			this.currentTime = 17})
+		var audio = document.getElementById("MenuMusicTheme1");
 			audio.volume = 0.2;
 	</script>
 

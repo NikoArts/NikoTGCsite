@@ -38,9 +38,16 @@ body.Credits{
 	overflow: hidden;
 }
 
-Body.Tutorial {
+Body.Setup {
 	background: black;
+	overflow: hidden;
 	}
+	
+Body.LevelSelect{
+	height: 100%;
+	background: linear-gradient(to bottom, #040118, #0B0721, #120D2C, #161131, #1A1437, #2C2451, #4A3F7B);
+	background-attachment: fixed;
+}
 
 .Index{
 	overflow: hidden;
@@ -160,6 +167,17 @@ img.ComicsPrev{
 	margin-left: -1vw;
 	margin-right: 1vw;
 }
+
+
+img.LSGallery{
+	width: 50vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vw;
+	image-rendering: pixelated;
+}
+
 
 .ComicsbuttonA {
 position:fixed;
@@ -356,4 +374,35 @@ img.BG {
 .MediaButtons:active{
 	color:#FFBE6D;
 	text-shadow: 1px 1px 0.5px #E78142, 2px 2px 0.5px #D23118, 3px 3px 2px #1B0F2B;
+}
+
+.LSButtons{
+	text-decoration: none;
+}
+
+.LSButtons:hover{
+	color:#FFBE6D;
+	text-shadow: 1px 1px 0.5px #E78142, 2px 2px 0.5px #D23118, 3px 3px 2px #1B0F2B;
+}
+
+.LSButtons:active{
+	color:#FFF200;
+	text-shadow: 1px 1px 0.5px #F9C400, 2px 2px 0.5px #F69B08, 3px 3px 2px #1B0F2B;
+}
+
+
+audio.MusicPlayer{
+	width: 50vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20vw;
+	background-color: #F9EDFF;
+	opacity: 0.9;
+	filter: drop-shadow(0 0 1vw rgba(250, 250, 255, 0.5));
+}
+
+audio::-webkit-media-controls-panel {
+	background-color: #F9EDFF;
+	opacity: 0.9;
 }

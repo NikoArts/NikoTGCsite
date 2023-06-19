@@ -15,4 +15,8 @@ function redirectUser() {
   else if(code == "AGESLS"){
     window.location.href = "Easters/LevelSelect.html";
   }
+  
+  else if(code == "TGV2ZWxTZWxlY3Qg"){
+    window.location.href = "LevelSelect.html";
+  }
 }

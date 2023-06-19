@@ -1,0 +1,29 @@
+@keyframes FadeIn {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.FadeIn{
+	animation: FadeIn 1s ease 0s 1 normal forwards;
+}
+
+
+
+@keyframes FadeOut {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.FadeOut{
+	animation: FadeOut 1s ease 0s 1 normal forwards;
+}

@@ -1,38 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<style type="text/css">
-  h1 {
-	  font-family: Arial, Helvetica, sans-serif;
-	  color: #F00;
-	  font-size: x-large;
-  }
-  p {
-	  font-family: Arial, Helvetica, sans-serif;
-	  color: #000;
-	  font-size: small;
-  }
-  body {
-	  background-color: #FFF;
-  }
-  #bloctxt {
-	  border-left-width: 5px;
-	  border-left-style: solid;
-	  border-left-color: #F00;
-	  padding-left: 10px;
-	  position: absolute;
-	  left: 50%%;
-	  width: 600px;
-	  margin-left: -260px
-  }
-</style>
+<DOCTYPE html>
+<html>
+<!--WxTZW-->
 <head>
-
+<title> Niko's Glitchy TrashCan</title>
 <link rel="stylesheet" href="CSScrap.css" type="text/css">
-<link rel="stylesheet" href="BgParticles.css" type="text/css">
-<link rel="stylesheet" href="GameplayCSS.css" type="text/css">
-<script type="text/javascript" src="GameplayJs.js"></script>
 <link rel="stylesheet" href="NewIndexParticles.css" type="text/css">
+<link rel="stylesheet" href="SetupCSS.css" type="text/css">
+<script type="text/javascript" src="SetupJs.js"></script>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -42,50 +16,8 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  
-  <!-- Enables full-screen on iOS devices -->
-  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <meta name="HandheldFriendly" content="true" />
-
-  <title>NikoTGC tutorial</title>
-
-	<script>
-	   	// Detection of old browsers that do not support the canvas element
-		// Falls back to a default page
-	    if (!document.createElement("canvas").getContext)
-	    {
-			window.open("http://www.clickteam.com/html5-fallback", "_self");
-		}
-	</script>
-
-
-  	<!-- EXTRASOURCES -->
-	<!-- Loads the Javascript code...-->
-    <script src="src/Runtime.js"></script>
-
-    <script>
-	    // Detection of when the html file is ran locally.
-	    // You can remove this code for the final version
-	    if (window.location.protocol == "file:")
-	    {
-		    document.write('<div id="bloctxt">');
-		    document.write('<h1>The application cannot be run...</h1>');
-		    document.write('<p>HTML browsers do not allow you to launch data files directly from the file system.<br>');
-		    document.write('A drag & drop of the html file on a web-browser window will not work, on any machine.<br>');
-		    document.write('Please use the Build & Run option (it opens a local web server) to run your application,<br>') 
-		    document.write('or upload your application folder to a remote web-server, and start it from there...</p>');
-		    document.write('</div>');
-		    throw new error("Cannot run application");
-	    }
-  </script>
 </head>
-
-<body class="Tutorial">
-
+<body class="Setup">
 <video id="myaudio" controls="" loop="loop" autoplay="autoplay" name="media" preload="auto" hidden>
 <source src="OST/MenuTheme.mp3" type="audio/mp3">
 </video>
@@ -93,40 +25,15 @@
 		var audio = document.getElementById("myaudio");
 			audio.volume = 0.2;
 	</script>
-	
 
-    <div>
-        <div style="position:absolute; top:0px; left:0px; -webkit-user-select: none;">
-            <canvas id="MMFCanvas" width="480" height="320">
-                Your browser does not support Canvas.
-            </canvas>    
-        </div>
-    </div>
 
-    <script>
-        window.rs = "src/Runtime.js";
-        window.fs = "641372";
-    </script>
-    <script>
-        // RUNTIMESTART
-        // This is where the HTML5 runtime is actually started
-        window.addEventListener("load", windowLoaded, false);
-        function windowLoaded()
-        {
-            // Calls the runtime
-            // First parameter : name of the canvas element
-            // Second parameter : path to the cch file. Images and sounds must lay beside this file
-            new Runtime("MMFCanvas", "resources/Test3.cch");
-        }
-        // RUNTIMESTARTEND
-    </script>
+<div id="Setup" class=" ">
+<br style="line-height: 15vw;">
+<img src = "Images/Icons/NikoArts.png" class="Beat5" height="20%" style="display: block; margin-left: auto; margin-right: auto;" >
+<h1 class="Beat3"> Made by: Niko_❮Arts❯ </h1>
+</div>
 
-	
-<img src = "Images/Gameplay/Overlay2.png" height="100%" width="30%" style="position:fixed; z-index: 1; top: 0; right: 0;">
-<img src = "Images/Index/Logo.png" height="30%" style="position:absolute; right: 1%; top: 3%; z-index: 100;" class="Beat6">
-
-<h2 style="position:Fixed; Left: 10%; top: 5%; z-index: 100;" class="Beat2" id="TutorialInfo">  </h2>
-
+<div id="Fade" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; background: black;" class=""/>
 
 </body>
 </html>
