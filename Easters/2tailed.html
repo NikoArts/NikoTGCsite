@@ -1,0 +1,56 @@
+<DOCTYPE html>
+<html>
+<head>
+<title> 2Tailed mod SoundTEST</title>
+
+<link rel="stylesheet" href="2Tailed.css" type="text/css">
+<script type="text/javascript" src="2Tailed.js"></script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+<img height="120%" width="120%" class="BgDots">
+
+<div style="position: fixed; top: -18vw; left: -18vw; z-index: 100;">
+<div id="Disc" class="Disc "></div>
+</div>
+
+<div style="position: fixed; bottom: -5vw; right: -5vw; z-index: 100">
+<div id="Chrs" class="Characters "></div>
+</div>
+
+<img id="Info" src = "2tailed/MusicInfo.png" class="MusicInfo">
+
+<div id="MPB" class="MusicMenu MusMenu">
+<img src = "2tailed/MusicPlayer.png" class="MusMenu">
+<a onclick="Play()"><img src = "2tailed/Play.png" class="MusMenuButton"></a>
+<a onclick="Back()"><img src = "2tailed/ArrowB1.png" class="MusMenuBarrow"></a>
+<a onclick="Front()"><img src = "2tailed/ArrowF1.png" class="MusMenuFarrow"></a>
+</div>
+
+
+<div id="SoundTrack">
+<audio class="MusicPlayer" id="Player"> <source src="2tailed/OST/FreakyMenu.mp3" type="audio/mpeg"></audio>
+</div>
+
+<div id="Icons" >
+<img id="IconsVisibility"  src = "2tailed/Icon1.png" class="Icons IconsAnim1 Invis">
+</div>
+
+<h1 class="MusMenuText" id="Information"> 
+FreakyMenu.mp3<br>Main menu theme<br>length: 1:30 <br>
+</h1>
+
+<h1 class="InfoText TextInfo Invis" id="SongInfo">
+FileName: FreakyMenu.mp3  |  Name: WEEK 1 Theme <br> Made by: LuigiLuckyPlumber  |  WEEK 1 Theme.<br>length: 1:30  |  [Soundtrack that is used in WEEK 1 Theme]
+</h1>
+
+</body>
+</html>
