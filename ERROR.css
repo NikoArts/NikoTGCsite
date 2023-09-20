@@ -1,0 +1,100 @@
+Body.ERROR {
+	background: #070210;
+	overflow: hidden;
+	}
+.ERRORbg{
+	background-image: url("Images/ERROR/BG thing.png");
+	position: fixed;
+	top: -5;
+	left: -5;
+	animation: ERRORbg 20s linear 0s infinite normal forwards;
+	z-index: -100;
+}
+
+@keyframes ERRORbg {
+	0% {
+		background-position: 0% 0%;
+	}
+
+	100% {
+		background-position: 224px 224px;
+	}
+}
+
+.container {
+	color:#FF2E25; font-size:4vw; text-align: center; word-spacing:0.2vw; 
+	text-shadow: 1px 1px 0.5px #B70045, 2px 2px 0.5px #6A0042, 3px 3px 2px #1B0F2B;
+	font-family: Georgia;
+	transform: rotate(340deg);
+	background-color: rgba(19, 11, 34, 0.7);
+	position:fixed;
+	top: 10vw;
+	left:-40vw;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.scrolling {
+	animation: marquee 2s linear infinite;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+@keyframes marquee {
+	from {
+		transform: translateX(0);
+	}
+	to { 
+		transform: translateX(-100%);
+	}
+}
+
+h1{
+	color:#000024; font-size:1.5vw; text-align: center; word-spacing:0.2vw; 
+	text-shadow: 1px 1px 2px #B490FF;
+	font-family: Georgia;
+	animation: TextMove 2s linear infinite;
+}
+
+
+@keyframes TextMove {
+	0 100% {
+		transform: rotateX(10deg) rotateY(0deg) translate(-0.2vw, -0.2vw);
+		transform-style: preserve-3d;
+	}
+	10% { 
+		transform: rotateX(10deg) rotateY(10deg) translate(0.2vw, 0.2vw);
+		transform-style: preserve-3d;
+	}
+	20% { 
+		transform: rotateX(0deg) rotateY(10deg) translate(-0.2vw, 0.2vw);
+		transform-style: preserve-3d;
+	}
+	30% { 
+		transform: rotateX(10deg) rotateY(0deg) translate(0.2vw, -0.2vw);
+		transform-style: preserve-3d;
+	}
+	40% {
+		transform: rotateX(10deg) rotateY(0deg) translate(-0.2vw, -0.2vw);
+		transform-style: preserve-3d;
+	}
+	50% { 
+		transform: rotateX(10deg) rotateY(10deg) translate(0.2vw, 0.2vw);
+		transform-style: preserve-3d;
+	}
+	60% { 
+		transform: rotateX(0deg) rotateY(10deg) translate(-0.2vw, 0.2vw);
+		transform-style: preserve-3d;
+	}
+	70% { 
+		transform: rotateX(10deg) rotateY(0deg) translate(0.2vw, -0.2vw);
+		transform-style: preserve-3d;
+	}
+	80% {
+		transform: rotateX(10deg) rotateY(0deg) translate(-0.2vw, -0.2vw);
+		transform-style: preserve-3d;
+	}
+	90% { 
+		transform: rotateX(0deg) rotateY(10deg) translate(-0.2vw, 0.2vw);
+		transform-style: preserve-3d;
+}

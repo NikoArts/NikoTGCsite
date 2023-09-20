@@ -1,6 +1,6 @@
 window.onload = function() {
 	
-var theNum = Math.floor(Math.random() * 5) + 1
+var theNum = Math.floor(Math.random() * 6) + 1
 
 if(theNum == "1"){
 	CharacterMain.src='Images/Index/indexCHR1.png';
@@ -21,5 +21,9 @@ if(theNum == "1"){
 	else if(theNum == "5"){
 		CharacterMain.src='Images/Index/indexCHR5.png';
 		CharacterBG.src='Images/Index/indexCHR5b.png';
+	}
+	else if(theNum == "6"){
+		CharacterMain.src='Images/Index/indexCHR6.png';
+		CharacterBG.src='Images/Index/indexCHR6b.png';
 	}
 }
