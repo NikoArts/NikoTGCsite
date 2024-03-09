@@ -14,7 +14,7 @@ Page++;
 
 if(theNum == arr.length){theNum="0";}
 
-change_image_2.src='../Images/Asks/GraelTale/GraelTale ('+arr[theNum]+').jpg';
+change_image_2.src = '../Images/Smol/Asks/GraelTale/GraelTale ('+arr[theNum]+').jpg';
 
 window.scrollTo({
 		top: 0,
@@ -31,7 +31,7 @@ Page--;
 
 if(theNum == "-1"){theNum = arr.length -1; } console.log(theNum );
 
-change_image_2.src='../Images/Asks/GraelTale/GraelTale ('+arr[theNum]+').jpg';
+change_image_2.src = '../Images/Smol/Asks/GraelTale/GraelTale ('+arr[theNum]+').jpg';
 
 window.scrollTo({
 		top: 0,

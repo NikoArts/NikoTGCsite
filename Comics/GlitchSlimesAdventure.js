@@ -14,7 +14,7 @@ Page++;
 
 if(theNum == arr.length){theNum="0";}
 
-change_image_2.src='../Images/Comics/GlitchSlimesAdventure/Glitch slimes adventures '+arr[theNum]+'.png';
+change_image_2.src = '../Images/Smol/Comics/GlitchSlimesAdventure/Glitch slimes adventures '+arr[theNum]+'.png';
 
 window.scrollTo({
 		top: 0,
@@ -31,7 +31,7 @@ Page--;
 
 if(theNum == "-1"){theNum = arr.length -1; } console.log(theNum );
 
-change_image_2.src='../Images/Comics/GlitchSlimesAdventure/Glitch slimes adventures '+arr[theNum]+'.png';
+change_image_2.src = '../Images/Smol/Comics/GlitchSlimesAdventure/Glitch slimes adventures '+arr[theNum]+'.png';
 
 window.scrollTo({
 		top: 0,

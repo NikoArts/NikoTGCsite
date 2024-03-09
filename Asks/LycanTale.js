@@ -37,7 +37,7 @@ Page++;
 
 if(theNum == arr.length){theNum="0";}
 
-change_image_2.src='../Images/Asks/LycanTale/LycanTale ('+arr[theNum]+').jpg';
+change_image_2.src = '../Images/Smol/Asks/LycanTale/LycanTale ('+arr[theNum]+').jpg';
 
 document.getElementById("ComicsInfo").innerHTML = 'Comics Page: '+Pagearr[theNum]+'';
 }
@@ -50,7 +50,7 @@ Page--;
 
 if(theNum == "-1"){theNum = arr.length -1; } console.log(theNum );
 
-change_image_2.src='../Images/Asks/LycanTale/LycanTale ('+arr[theNum]+').jpg';
+change_image_2.src = '../Images/Smol/Asks/LycanTale/LycanTale ('+arr[theNum]+').jpg';
 
 document.getElementById("ComicsInfo").innerHTML = 'Comics Page: '+Pagearr[theNum]+'';
 }

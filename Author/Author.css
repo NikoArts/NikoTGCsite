@@ -18,13 +18,14 @@
 
 /*Ripple*/
 .ripple {
-  width: 10px;
-  height: 10px;
-  opacity: 0;
-  transform: scale(0);
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  position: fixed;
+	pointer-events: none;
+	width: 10px;
+	height: 10px;
+	opacity: 0;
+	transform: scale(0);
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	position: fixed;
 }
 
 /*Animate Function*/
@@ -144,21 +145,23 @@ animation: Bounce 0.7s ease 0s infinite normal forwards;
 	background: linear-gradient(to bottom right, #FFDCD8, #FFBDB4, #FF828A, #FF4670, #C9013F, #AB001D, #7F001A);
 }
 
-.BgAnimation{
-	background-image: url("../Images/Author/BG thing.png");
-	position: fixed;
-	top: -5;
-	left: -5;
-	animation: BgAnim 20s linear 0s infinite normal forwards;
-	z-index: -100;
+.Crystals{
+	display: inline-block;
+	margin: 0.5vw; 
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+	position: relative;
 }
 
-@keyframes BgAnim {
-	0% {
-		background-position: 0% 0%;
-	}
+.CrystalA{
+	display: inline-block; 
+	margin-right: -0.14vw;
+	position: relative;
+}
 
-	100% {
-		background-position: -250px -250px;
-	}
+.CrystalB{
+	display: inline-block;
+	margin-left: -0.13vw;
+	margin-top: 0.02vw;
+	position: relative;
 }
