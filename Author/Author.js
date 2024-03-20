@@ -1,89 +1,9 @@
-var Audio1 = new Audio('OST/SiteAuthor_0 1.ogg'); 
-var Audio2 = new Audio('OST/SiteAuthor_2.ogg'); 
-var Audio3 = new Audio('OST/SiteAuthor_3.ogg'); 
-var Audio4 = new Audio('OST/SiteAuthor_4.ogg'); 
-var Audio5 = new Audio('OST/SiteAuthor_5.ogg'); 
-var Audio6 = new Audio('OST/SiteAuthor_6.ogg'); 
-var Audio7 = new Audio('OST/SiteAuthor_7.ogg'); 
-var Audio8 = new Audio('OST/SiteAuthor_8.ogg'); 
-var Audio9 = new Audio('OST/SiteAuthor_9.ogg'); 
-var Audio10 = new Audio('OST/SiteAuthor_10.ogg'); 
-var Audio11 = new Audio('OST/SiteAuthor_11.ogg'); 
-var Audio12 = new Audio('OST/SiteAuthor_12.ogg'); 
-var Audio13 = new Audio('OST/SiteAuthor_13.ogg'); 
-var Audio14 = new Audio('OST/SiteAuthor_14.ogg'); 
-var Audio15 = new Audio('OST/SiteAuthor_15a.ogg'); 
-var Audio16 = new Audio('OST/SiteAuthor_15b.ogg'); 
-var Audio17 = new Audio('OST/SiteAuthor_16.ogg'); 
+var Audio = new Audio('OST/SiteAuthor_0 1.ogg'); 
 
 window.addEventListener('load', function (){
-    Audio1.play(); 
-	Audio1.loop = true;
-	Audio1.muted = false;
-	
-	Audio2.play(); 
-	Audio2.loop = true;
-	Audio2.muted = true;
-	
-	Audio3.play(); 
-	Audio3.loop = true;
-	Audio3.muted = true;
-	
-	Audio4.play(); 
-	Audio4.loop = true;
-	Audio4.muted = true;
-	
-	Audio5.play(); 
-	Audio5.loop = true;
-	Audio5.muted = true;
-	
-	Audio6.play(); 
-	Audio6.loop = true;
-	Audio6.muted = true;
-	
-	Audio7.play(); 
-	Audio7.loop = true;
-	Audio7.muted = true;
-	
-	Audio8.play(); 
-	Audio8.loop = true;
-	Audio8.muted = true;
-	
-	Audio9.play(); 
-	Audio9.loop = true;
-	Audio9.muted = true;
-	
-	Audio10.play(); 
-	Audio10.loop = true;
-	Audio10.muted = true;
-	
-	Audio11.play(); 
-	Audio11.loop = true;
-	Audio11.muted = true;
-	
-	Audio12.play(); 
-	Audio12.loop = true;
-	Audio12.muted = true;
-	
-	Audio13.play(); 
-	Audio13.loop = true;
-	Audio13.muted = true;
-	
-	Audio14.play(); 
-	Audio14.loop = true;
-	Audio14.muted = true;
-	
-	Audio15.play(); 
-	Audio15.loop = true;
-	Audio15.muted = true;
-	
-	Audio16.play(); 
-	Audio16.loop = true;
-	Audio16.muted = true;
-	
-	Audio17.play(); 
-	Audio17.loop = true;
-	Audio17.muted = true;
+    Audio.play(); 
+	Audio.loop = true;
+	Audio.muted = false;
 });
 
 function N0()
@@ -119,28 +39,17 @@ document.getElementById('BackgroundColor').classList.remove('BGclr15');
 document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
-Audio1.muted = false;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_0 1.ogg';
+Audio.currentTime = AudioTime;
+Audio.play(); 
 
 
 setTimeout(function(){
 document.getElementById('AuthorIMG').classList.remove('Bouncy');
 document.getElementById('AuthorIMG2').classList.remove('Bouncy');
+
+
 },500);
 }
 
@@ -179,23 +88,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
 
-Audio1.muted = false;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_0 1.ogg';
+Audio.currentTime = AudioTime;
+Audio.play(); 
+
 
 
 
@@ -239,23 +136,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = false;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_2.ogg';
+Audio.currentTime = AudioTime;
+Audio.play(); 
+
 
 
 setTimeout(function(){
@@ -298,23 +183,10 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = false;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_3.ogg';
+Audio.currentTime = AudioTime;
+Audio.play(); 
 
 
 
@@ -358,23 +230,10 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = false;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_4.ogg';
+Audio.currentTime = AudioTime;
+Audio.play(); 
 
 
 
@@ -418,23 +277,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = false;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_5.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
 
 
 
@@ -478,23 +325,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = false;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_6.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
+
 
 
 
@@ -538,23 +373,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = false;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_7.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
 
 
 
@@ -598,23 +421,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = false;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_8.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
+
 
 
 setTimeout(function(){
@@ -657,23 +468,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = false;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_9.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
+
 
 
 
@@ -717,23 +516,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = false;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_10.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
 
 
 
@@ -777,23 +564,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = false;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_11.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
 
 
 
@@ -837,23 +612,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = false;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_12.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
 
 
 
@@ -897,23 +660,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = false;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_13.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
 
 
 
@@ -957,23 +708,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = false;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = true;
+
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_14.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
 
 
 
@@ -1017,23 +756,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = false;
-Audio16.muted = true;
-Audio17.muted = true;
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_15a.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
+
 
 
 
@@ -1077,23 +804,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr1');
 document.getElementById('BackgroundColor').classList.remove('BGclr17');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = false;
-Audio17.muted = true;
+
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_15b.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
 
 
 
@@ -1137,23 +852,11 @@ document.getElementById('BackgroundColor').classList.remove('BGclr16');
 document.getElementById('BackgroundColor').classList.remove('BGclr1');
 
 
-Audio1.muted = true;
-Audio2.muted = true;
-Audio3.muted = true;
-Audio4.muted = true;
-Audio5.muted = true;
-Audio6.muted = true;
-Audio7.muted = true;
-Audio8.muted = true;
-Audio9.muted = true;
-Audio10.muted = true;
-Audio11.muted = true;
-Audio12.muted = true;
-Audio13.muted = true;
-Audio14.muted = true;
-Audio15.muted = true;
-Audio16.muted = true;
-Audio17.muted = false	;
+
+var AudioTime = Audio.currentTime;
+Audio.src = 'OST/SiteAuthor_16.ogg';
+Audio.currentTime = AudioTime;
+Audio.play();
 
 
 setTimeout(function(){
