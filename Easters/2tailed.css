@@ -422,3 +422,7 @@ filter: brightness(1.2);
 	font-size: 18px;
 	line-height: 30px;
 }
+
+.Invis {
+	visibility: hidden;
+}
