@@ -28,10 +28,10 @@ document.getElementById('Info').classList.add('MusicInfoAnim');
 
 setTimeout(function(){
 
-if(theNum == "0"){ document.getElementById("SongInfo").innerHTML = ' FileName: FreakyMenu.mp3  |  Name: WEEK 1 Theme <br> Made by: LuigiLuckyPlumber  |  WEEK 1 Theme.<br>length: 1:30  |  [Soundtrack that is used in WEEK 1 Theme]';}
+if(theNum == "0"){ document.getElementById("SongInfo").innerHTML = ' FileName: FreakyMenu.mp3  |  Name: WEEK 1 Theme <br> Made by: hant147  |  WEEK 1 Theme.<br>length: 1:30  |  [Soundtrack that is used in WEEK 1 Theme]';}
 if(theNum == "1"){ document.getElementById("SongInfo").innerHTML = ' FileName: GameOver.mp3  |  Name: Game Over theme <br> Made by: LuigiLuckyPlumber  |  Game over Soundtrack.<br>length: 0:21  |  [Soundtrack that is used on Game Over]';}
 if(theNum == "2"){ document.getElementById("SongInfo").innerHTML = ' FileName: SlimeDays.mp3  |  Name: Slime Days <br> Made by: Enysmo  |  VS Niko [song_1].<br>length: 1:37  |  [First song of Niko week]';}
-if(theNum == "3"){ document.getElementById("SongInfo").innerHTML = ' FileName: CodeSwing.mp3  |  Name: Code Swing <br> Made by: BagheadBeatz  |  VS Niko.<br>length: 2:57  |  [Second song of Niko week]';}
+if(theNum == "3"){ document.getElementById("SongInfo").innerHTML = ' FileName: CodeSwing.mp3  |  Name: Code Swing <br> Made by: BagheadBeatz & hant147  |  VS Niko.<br>length: 2:57  |  [Second song of Niko week]';}
 if(theNum == "4"){ document.getElementById("SongInfo").innerHTML = ' FileName: GlitchingOut.mp3  |  Name: Glitching Out <br> Made by: Enysmo   |  VS Niko [song_3].<br>length: 2:00  |  [Final song of Niko week]';}
 if(theNum == "5"){ document.getElementById("SongInfo").innerHTML = ' FileName: FighterApproaches.mp3  |  Name: Aurora Blitz <br> Made by: Enysmo   |  VS Bark [Bonus song].<br>length: 2:18  |  [Bonus song... OMG IS DAT BARK FROM SON-]';}
 if(theNum == "6"){ document.getElementById("SongInfo").innerHTML = ' FileName: DadBattle.mp3  |  Name: db 2tailed mix <br> Made by: hant_iyona   |  VS Daddy Dearest [song_1].<br>length: 1:30  |  [VS Daddy Dearest 2tailed mix song_1]';}
