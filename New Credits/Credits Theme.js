@@ -24,6 +24,7 @@ audio.addEventListener('ended', function () {
 function playSong() {
     audio.src = songs[currentSongIndex];
     audio.play();
+	audio.volume = 0.1;
 }
 
 function changeBackground() {
