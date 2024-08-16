@@ -1,0 +1,196 @@
+body, html {
+    height: 1000vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+	background-color: black; /* Assuming a black background for stars */
+	transition: background-image 2s ease-in-out; /* Smooth fade transition */
+    font-family: Georgia;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
+/* Define the background gradient animation */
+@keyframes gradientMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 200%;
+  }
+}
+
+body {
+  background: 
+    linear-gradient(to bottom, #000000, #000000, #000000, #000000, 
+					#9E81BA, #896AAE, #7254A0, #5A3C90, #422E81, #312473, #241D56,
+                    #0B0843, #07042B, #000022, #04002E, #0A0037, #20004C, #360058,
+                    #5A0567, #790777, #8B0778, #A60B6E, #C0136E, #D21B58, #DE314C,
+                    #ED5244, #FF8B67, #FFC285, #FFE1A6, #FFF0BA, #FFD3BA, #FFA19D,
+                    #FF88AA, #FF79C5, #F65AD8, #EA4CFF, #B446FF, #7D2BFF, #412EED,
+                    #3850F3, #4278F6, #5593FF, #76BBFF, #ABE5FF, #9BA2E4, #9E81BA,
+                    #9E81BA, #896AAE, #7254A0, #5A3C90, #422E81, #312473, #241D56, #000000)
+    repeat,
+    url() repeat center center; 
+  background-size: cover, cover;
+  background-blend-mode: normal; 
+  background-size: 100% 200%, cover;
+  animation: gradientMove 200s linear infinite;
+}
+
+
+.credits-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+	margin:    0 auto;
+	max-width: 90%;
+}
+
+.credits {
+    position: absolute;
+    bottom: -100%;
+    animation: scroll-up 250s linear infinite;
+    text-align: center;
+}
+
+@keyframes scroll-up {
+    from {
+bottom: -680vh;
+    }
+    to {
+bottom: 1000vh;
+    }
+}
+
+h1 {
+color:#F9EDFF; font-size:6vw; text-align: center; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+font-family: Georgia;
+}
+
+h4 {
+color:#F9EDFF; font-size:4vw; text-align: center; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+font-family: Georgia;
+}
+
+h5 {
+color:#F9EDFF; font-size:2vw; text-align: center; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+font-family: Georgia;
+}
+
+
+a.Niko {
+color:#F9EDFF; font-size:4vw; text-align: left; word-spacing:10px; 
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+font-family: Georgia;
+}
+
+a{
+color:#F9EDFF;
+text-shadow: 1px 1px 0.5px #BFACCF, 2px 2px 0.5px #8472A3, 3px 3px 2px #1B0F2B;
+font-family: Georgia;
+}
+
+.background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	opacity: 0;
+	transition: opacity 4s ease-in-out;
+}
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 200%; /* Double the height to allow seamless scrolling */
+    top: 0;
+    left: 0;
+    background-size: auto;
+    background-repeat: repeat;
+    animation-timing-function: linear;
+}
+
+#stars1 {
+    background-image: url('St1.png');
+    animation: moveUp1 40s infinite linear;
+}
+
+#stars2 {
+    background-image: url('St2.png');
+    animation: moveUp2 30s infinite linear;
+}
+
+#stars3 {
+    background-image: url('St3.png');
+    animation: moveUp3 20s infinite linear;
+}
+
+#stars4 {
+    background-image: url('St4.png');
+    animation: moveUp4 10s infinite linear;
+}
+
+@keyframes moveUp1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-720px); } /* Move from 0% to -100% to fully loop */
+}
+
+@keyframes moveUp2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-720px); }
+}
+
+@keyframes moveUp3 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-720px); }
+}
+
+@keyframes moveUp4 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-720px); }
+}
+
+img.Credits{
+	position: relative;
+	bottom: -2vw;
+}
+
+.BgChecker {
+    background-image: url('BG thing.png');
+    animation: BgAnim 60s linear 0s infinite normal forwards;
+	
+	position: absolute;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    background-size: auto;
+    background-repeat: repeat;
+    animation-timing-function: linear;
+}
+
+@keyframes BgAnim {
+	0% {
+		background-position: 0% 0%;
+	}
+
+	100% {
+		background-position: -250px -250px;
+	}
+}
