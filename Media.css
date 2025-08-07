@@ -1,0 +1,67 @@
+.Contacts{
+	width: 4vw;
+    height: 120%;
+    background: #000013;
+	position: fixed;
+	top: -1;
+	left: 0;
+}
+.MediaData{
+	position: relative;
+	top: 0.1vw;
+	left: 0.1vw;
+}
+
+.MediaData1{
+	width: 3.5vw;
+}
+
+.MediaData2{
+	position: absolute;
+	bottom: 0.2;
+	right: 0.3vw;
+	width: 1.8vw;
+	border-radius: 50%;
+}
+
+.MediaData3{
+	position: fixed;
+	bottom: 0.2vw;
+	left: 0.1vw;
+}
+
+.MediaData4{
+	position: absolute;
+	bottom: 6.2vh;
+	left: -1.5vw;
+	transform: scale(0.5);
+}
+
+iframe{
+	filter: drop-shadow(2px 2px 2px #1B0F2B); 
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
+.NewsBlock{
+	background-color: rgba(27, 15, 43, 0.4);
+    padding: 0;
+    margin: auto;
+    margin-bottom: 20px;
+    display: table;
+    width: 80%;
+}
+
+.News-post{
+	float:left;
+}
+
+.News-info{
+	margin-left: 0;
+    padding: 2vw;
+    display: table;
+    width: 50%;
+}
